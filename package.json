@@ -1,0 +1,26 @@
+{
+    "name": "urandom",
+    "description": "Generating stereotypical usernames has never been easier",
+    "tags": ["user", "boilerplate", "generic", "generate"],
+    "version": "0.0.1",
+    "author": "Giovanny Gongora",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/Gioyik/urandom.git"
+    },
+    "bugs": {
+        "url": "http://github.com/Gioyik/urandom/issues"
+    },
+    "main": "./lib/main",
+    "bin": {
+        "urandom": "bin/urandom"
+    },
+    "dependencies": {
+        "underscore": "1.4.x",
+        "commander": "1.1.x"
+    },
+    "engines": {
+        "node": ">= 0.10.x"
+    }
+}

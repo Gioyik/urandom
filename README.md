@@ -12,7 +12,7 @@ Install from npm:
 The `urandom` executable is pretty straight-forward:
 
 ```bash
-$ urandom --help
+$ userandom --help
 
   Usage: userandom [options] [generators..]
 

@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var urandom = require(".."),
+    pkg = require("../package.json"),
+    program = require("commander");
+
+program
+    .version(pkg.version)
+    .usage("[options] [generators..]");
+
+program.on("--help", function() {
+    console.log("Example:");
+    console.log("");
+    console.log("    $ urandom generator");
+    console.log("    $ urandom");
+    console.log("");
+});
+
+program.parse(process.argv);
+
+if(program.args.length > 0) {
+    var names = urandom(program.args);
+
+    for(var i = 0; i < names.length; i++) console.log(names[i]);
+}
+else console.log(urandom());

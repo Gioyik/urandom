@@ -12,7 +12,7 @@
     "bugs": {
         "url": "http://github.com/Gioyik/urandom/issues"
     },
-    "main": "./lib/main",
+    "main": "./lib/lib",
     "bin": {
         "urandom": "bin/urandom"
     },

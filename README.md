@@ -9,7 +9,7 @@ Install from npm:
 
 ## Usage
 
-The `urandom` executable is pretty straight-forward:
+The `userandom` executable is pretty straight-forward:
 
 ```bash
 $ userandom --help
